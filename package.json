@@ -1,0 +1,20 @@
+{
+  "name": "kajan_subakannan_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/src.css -o ./css/main.css --minify",
+    "watch:css": "tailwindcss -i ./css/src.css -o ./css/main.css --watch",
+    "start": "npm run watch:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

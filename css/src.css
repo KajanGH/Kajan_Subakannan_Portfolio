@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design-system tokens */
+:root {
+  --clr-bg: #0d0d11;
+  --clr-primary: #7c3aed;
+  --clr-primary-light: #a78bfa;
+  --clr-text: #e5e7eb;
+  --clr-muted: #9ca3af;
+}
+
+/* Custom font classes */
+.font-display {
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* Shared button style */
+.btn-primary {
+  @apply inline-block bg-[var(--clr-primary)] text-white py-2 px-6 rounded-lg font-semibold shadow
+          hover:bg-[var(--clr-primary-light)] transition;
+}

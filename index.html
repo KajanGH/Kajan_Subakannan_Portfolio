@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kajan Subakannan · Full-Stack Developer Portfolio</title>
+  
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Kajan Subakannan - Full-Stack Developer specializing in modern web technologies, React, Node.js, and innovative digital solutions.">
+  <meta name="keywords" content="Full-Stack Developer, Web Developer, React, Node.js, JavaScript, Portfolio">
+  <meta name="author" content="Kajan Subakannan">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kajangh.github.io/Kajan_Subakannan_Portfolio/">
+  <meta property="og:title" content="Kajan Subakannan · Full-Stack Developer Portfolio">
+  <meta property="og:description" content="Full-Stack Developer specializing in modern web technologies and innovative digital solutions.">
+  <meta property="og:image" content="https://kajangh.github.io/Kajan_Subakannan_Portfolio/img/og-image.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://kajangh.github.io/Kajan_Subakannan_Portfolio/">
+  <meta property="twitter:title" content="Kajan Subakannan · Full-Stack Developer Portfolio">
+  <meta property="twitter:description" content="Full-Stack Developer specializing in modern web technologies and innovative digital solutions.">
+  <meta property="twitter:image" content="https://kajangh.github.io/Kajan_Subakannan_Portfolio/img/og-image.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  
+  <!-- Preload Important Resources -->
+  <link rel="preload" href="/img/headshot.jpg" as="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+  <!-- ============================================
+       HEADER & NAVIGATION
+       ============================================ -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">KS.</a>
+      
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#career" class="nav-link">Career</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+      </ul>
+      
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <!-- TODO: Replace with your professional headshot -->
+      <img src="/img/headshot.jpg" alt="Kajan Subakannan" class="hero-image fade-in-up">
+      
+      <h1 class="hero-title"></h1>
+      
+      <p class="hero-subtitle fade-in-up">
+        <!-- TODO: Customize your tagline -->
+        Full-Stack Developer passionate about creating innovative web solutions and exceptional user experiences.
+      </p>
+      
+      <div class="flex gap-4 justify-center fade-in-up">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT ME SECTION
+       ============================================ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-title fade-in-up">
+        <h2>About Me</h2>
+        <p class="section-subtitle">Get to know me better</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="fade-in-left">
+          <h3>Hello! I'm Kajan Subakannan</h3>
+          <p>
+            <!-- TODO: Write your personal story -->
+            I'm a passionate Full-Stack Developer with [X] years of experience in creating 
+            digital solutions that make a difference. I love working with modern technologies 
+            and am always eager to learn new tools and frameworks.
+          </p>
+          <p>
+            <!-- TODO: Add more about your background -->
+            When I'm not coding, you can find me [your hobbies/interests]. I believe in 
+            continuous learning and staying up-to-date with the latest industry trends.
+          </p>
+          
+          <div class="flex gap-4 mt-6">
+            <a href="/resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+          </div>
+        </div>
+        
+        <div class="fade-in-right">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="card">
+              <h4 class="card-title">Projects Completed</h4>
+              <p class="card-content text-center text-3xl font-bold" style="color: var(--color-primary);">25+</p>
+            </div>
+            <div class="card">
+              <h4 class="card-title">Years Experience</h4>
+              <p class="card-content text-center text-3xl font-bold" style="color: var(--color-primary);">3+</p>
+            </div>
+            <div class="card">
+              <h4 class="card-title">Technologies</h4>
+              <p class="card-content text-center text-3xl font-bold" style="color: var(--color-primary);">15+</p>
+            </div>
+            <div class="card">
+              <h4 class="card-title">Happy Clients</h4>
+              <p class="card-content text-center text-3xl font-bold" style="color: var(--color-primary);">10+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SKILLS SECTION
+       ============================================ -->
+  <section id="skills" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title fade-in-up">
+        <h2>Skills & Technologies</h2>
+        <p class="section-subtitle">Tools and technologies I work with</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Frontend Skills -->
+        <div class="fade-in-left">
+          <h3 class="text-center mb-6">Frontend</h3>
+          <div class="skills-grid">
+            <!-- TODO: Replace with your actual skill icons -->
+            <div class="skill-item">
+              <img src="/img/icons/react.svg" alt="React" class="skill-icon">
+              <span class="skill-name">React</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/javascript.svg" alt="JavaScript" class="skill-icon">
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/typescript.svg" alt="TypeScript" class="skill-icon">
+              <span class="skill-name">TypeScript</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/html5.svg" alt="HTML5" class="skill-icon">
+              <span class="skill-name">HTML5</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/css3.svg" alt="CSS3" class="skill-icon">
+              <span class="skill-name">CSS3</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/tailwind.svg" alt="Tailwind CSS" class="skill-icon">
+              <span class="skill-name">Tailwind</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Backend Skills -->
+        <div class="fade-in-up">
+          <h3 class="text-center mb-6">Backend</h3>
+          <div class="skills-grid">
+            <!-- TODO: Replace with your actual skill icons -->
+            <div class="skill-item">
+              <img src="/img/icons/nodejs.svg" alt="Node.js" class="skill-icon">
+              <span class="skill-name">Node.js</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/express.svg" alt="Express.js" class="skill-icon">
+              <span class="skill-name">Express</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/python.svg" alt="Python" class="skill-icon">
+              <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/mongodb.svg" alt="MongoDB" class="skill-icon">
+              <span class="skill-name">MongoDB</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/postgresql.svg" alt="PostgreSQL" class="skill-icon">
+              <span class="skill-name">PostgreSQL</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/firebase.svg" alt="Firebase" class="skill-icon">
+              <span class="skill-name">Firebase</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tools & Other -->
+        <div class="fade-in-right">
+          <h3 class="text-center mb-6">Tools & Other</h3>
+          <div class="skills-grid">
+            <!-- TODO: Replace with your actual skill icons -->
+            <div class="skill-item">
+              <img src="/img/icons/git.svg" alt="Git" class="skill-icon">
+              <span class="skill-name">Git</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/github.svg" alt="GitHub" class="skill-icon">
+              <span class="skill-name">GitHub</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/docker.svg" alt="Docker" class="skill-icon">
+              <span class="skill-name">Docker</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/aws.svg" alt="AWS" class="skill-icon">
+              <span class="skill-name">AWS</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/figma.svg" alt="Figma" class="skill-icon">
+              <span class="skill-name">Figma</span>
+            </div>
+            <div class="skill-item">
+              <img src="/img/icons/vscode.svg" alt="VS Code" class="skill-icon">
+              <span class="skill-name">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       EDUCATION SECTION
+       ============================================ -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-title fade-in-up">
+        <h2>Education</h2>
+        <p class="section-subtitle">My academic journey</p>
+      </div>
+      
+      <div class="timeline fade-in-left">
+        <!-- TODO: Add your education details -->
+        <div class="timeline-item">
+          <div class="timeline-date">2020 - 2024</div>
+          <h3 class="timeline-title">Bachelor of Science in Computer Science</h3>
+          <div class="timeline-subtitle">University Name</div>
+          <p>Relevant coursework: Data Structures, Algorithms, Web Development, Database Systems, Software Engineering.</p>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-date">2019 - 2020</div>
+          <h3 class="timeline-title">Full-Stack Web Development Bootcamp</h3>
+          <div class="timeline-subtitle">Bootcamp Name</div>
+          <p>Intensive program covering modern web development technologies including React, Node.js, and database management.</p>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-date">2017 - 2019</div>
+          <h3 class="timeline-title">High School Diploma</h3>
+          <div class="timeline-subtitle">High School Name</div>
+          <p>Graduated with honors. Active in computer science club and mathematics competitions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CAREER SECTION
+       ============================================ -->
+  <section id="career" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title fade-in-up">
+        <h2>Career Experience</h2>
+        <p class="section-subtitle">My professional journey</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- TODO: Add your work experience -->
+        <div class="card fade-in-left">
+          <div class="timeline-date">2023 - Present</div>
+          <h3 class="card-title">Senior Full-Stack Developer</h3>
+          <div class="timeline-subtitle">Company Name</div>
+          <div class="card-content">
+            <p>Leading development of scalable web applications using React and Node.js. Mentoring junior developers and implementing best practices.</p>
+            <ul style="margin-top: var(--space-4); list-style: none; padding: 0;">
+              <li>• Increased application performance by 40%</li>
+              <li>• Led team of 5 developers</li>
+              <li>• Implemented CI/CD pipelines</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card fade-in-right">
+          <div class="timeline-date">2021 - 2023</div>
+          <h3 class="card-title">Full-Stack Developer</h3>
+          <div class="timeline-subtitle">Previous Company</div>
+          <div class="card-content">
+            <p>Developed and maintained multiple client projects using modern web technologies. Collaborated with cross-functional teams.</p>
+            <ul style="margin-top: var(--space-4); list-style: none; padding: 0;">
+              <li>• Built 15+ web applications</li>
+              <li>• Improved code quality by 30%</li>
+              <li>• Mentored 3 junior developers</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card fade-in-left">
+          <div class="timeline-date">2020 - 2021</div>
+          <h3 class="card-title">Junior Web Developer</h3>
+          <div class="timeline-subtitle">First Company</div>
+          <div class="card-content">
+            <p>Started my professional journey working on frontend development and learning backend technologies.</p>
+            <ul style="margin-top: var(--space-4); list-style: none; padding: 0;">
+              <li>• Contributed to 8+ projects</li>
+              <li>• Learned modern frameworks</li>
+              <li>• Collaborated with design teams</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card fade-in-right">
+          <div class="timeline-date">2019 - 2020</div>
+          <h3 class="card-title">Freelance Web Developer</h3>
+          <div class="timeline-subtitle">Self-Employed</div>
+          <div class="card-content">
+            <p>Built websites for local businesses and gained experience with client communication and project management.</p>
+            <ul style="margin-top: var(--space-4); list-style: none; padding: 0;">
+              <li>• Delivered 10+ client projects</li>
+              <li>• 100% client satisfaction rate</li>
+              <li>• Learned business skills</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PROJECTS SECTION
+       ============================================ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-title fade-in-up">
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">Some of my recent work</p>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- TODO: Replace with your actual projects -->
+        <div class="project-card fade-in-up">
+          <img src="/img/project1.png" alt="E-Commerce Platform" class="project-image" data-src="/img/project1.png">
+          <div class="project-content">
+            <h3 class="project-title">E-Commerce Platform</h3>
+            <p class="project-description">
+              Full-stack e-commerce solution with React frontend, Node.js backend, and integrated payment processing.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+              <span class="project-tag">Stripe</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in-up">
+          <img src="/img/project2.png" alt="Task Management App" class="project-image" data-src="/img/project2.png">
+          <div class="project-content">
+            <h3 class="project-title">Task Management App</h3>
+            <p class="project-description">
+              Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Vue.js</span>
+              <span class="project-tag">Socket.io</span>
+              <span class="project-tag">Express</span>
+              <span class="project-tag">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card fade-in-up">
+          <img src="/img/project3.png" alt="Weather Dashboard" class="project-image" data-src="/img/project3.png">
+          <div class="project-content">
+            <h3 class="project-title">Weather Dashboard</h3>
+            <p class="project-description">
+              Beautiful weather dashboard with location-based forecasts, interactive maps, and weather alerts.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Chart.js</span>
+              <span class="project-tag">OpenWeather API</span>
+              <span class="project-tag">CSS Grid</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center" style="margin-top: var(--space-12);">
+        <a href="https://github.com/KajanGH" class="btn btn-primary">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section id="contact" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-title fade-in-up">
+        <h2>Contact Me</h2>
+        <p class="section-subtitle">Let's discuss your next project</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="fade-in-left">
+          <h3 style="margin-bottom: var(--space-6);">Get In Touch</h3>
+          <p style="margin-bottom: var(--space-6);">
+            I'm always interested in new opportunities and exciting projects. 
+            Whether you have a question or just want to say hi, feel free to reach out!
+          </p>
+          
+          <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+            <div style="display: flex; align-items: center; gap: var(--space-4);">
+              <span style="width: 24px; height: 24px;">📧</span>
+              <span>kajan@example.com</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-4);">
+              <span style="width: 24px; height: 24px;">📱</span>
+              <span>+1 (555) 123-4567</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-4);">
+              <span style="width: 24px; height: 24px;">📍</span>
+              <span>City, Country</span>
+            </div>
+          </div>
+          
+          <div class="social-links" style="margin-top: var(--space-8);">
+            <!-- TODO: Replace with your actual social media links -->
+            <a href="https://linkedin.com/in/kajansubakannan" class="social-link" aria-label="LinkedIn">
+              <span style="font-size: 24px;">💼</span>
+            </a>
+            <a href="https://github.com/KajanGH" class="social-link" aria-label="GitHub">
+              <span style="font-size: 24px;">🔗</span>
+            </a>
+            <a href="https://twitter.com/kajansubakannan" class="social-link" aria-label="Twitter">
+              <span style="font-size: 24px;">🐦</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="fade-in-right">
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-textarea" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <!-- TODO: Replace with your actual social media links -->
+        <a href="https://linkedin.com/in/kajansubakannan" class="social-link" aria-label="LinkedIn">
+          <span style="font-size: 24px;">💼</span>
+        </a>
+        <a href="https://github.com/KajanGH" class="social-link" aria-label="GitHub">
+          <span style="font-size: 24px;">🔗</span>
+        </a>
+        <a href="https://twitter.com/kajansubakannan" class="social-link" aria-label="Twitter">
+          <span style="font-size: 24px;">🐦</span>
+        </a>
+      </div>
+      
+      <p>&copy; 2025 Kajan Subakannan. All rights reserved.</p>
+      <p>Built with ❤️ using modern web technologies</p>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+  <script src="/js/app.js"></script>
+</body>
+</html>
