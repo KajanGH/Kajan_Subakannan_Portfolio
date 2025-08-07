@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="#1572b6">
+  <path d="M4 2h16l-1.5 17L12 22l-6.5-3L4 2z" fill="#1572b6"/>
+  <path d="M12 3v17.5l5.5-2.5L18.8 3H12z" fill="#33a9dc"/>
+  <text x="12" y="14" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">CSS3</text>
+</svg>
